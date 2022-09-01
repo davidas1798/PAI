@@ -1,0 +1,26 @@
+body {
+    background-color: #e0afa0;
+}
+
+h1 {
+    text-align: center;
+    background-color: #463f3a;
+    color: #f4f3ee;
+}
+
+ul {
+    font-size: 20px;
+}
+
+canvas {
+    background-color: white;
+    border: 5px solid black;
+    margin: auto;
+    padding: 0;
+    display: block;
+}
+
+#status {
+    text-align: center;
+    margin: auto;
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Buffon Needles</title>
+  <h1>Buffon Needles</h1>
+  <link rel="stylesheet" href="style.css">
+  <script type="module" src="./src/buffon-client.js" defer></script>
+</head>
+
+<body>
+  <canvas id="myCanvas"></canvas>
+  <div id="buttons">
+    <button type="button" id="one-needle">Drop 1</button><br>
+    <button type="button" id="ten-needle">Drop 10</button><br>
+    <button type="button" id="hundred-needle">Drop 100</button><br>
+    <input type="number" id="input-needle" value="1" min="1">
+    <button type="button" id="input-button">Drop needles</button><br>
+  </div>
+
+  <table>
+    <tr>
+      <th>Number of drops</th>
+      <th>Number of hits</th>
+      <th>Drops / hits</th>
+      <th>PI (aprox)</th>
+    </tr>
+    <tr>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+    </tr>
+  </table> <br>
+</body>
+
+</html>

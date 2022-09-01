@@ -1,0 +1,17 @@
+h1, h2 {
+    background-color: rgb(252, 106, 90);
+    text-align: center;
+}
+
+body {
+    background-color: salmon;
+}
+
+#present-container {
+    text-align: center;
+}
+
+img {
+    width: 300px;
+    height: 300px;
+}

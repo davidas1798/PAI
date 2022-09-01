@@ -1,0 +1,24 @@
+{
+  "name": "buffon",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "Package with the code of the Buffon Needle problem",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test"
+  },
+  "keywords": [
+    "needle",
+    "buffon",
+    "exam",
+    "pai"
+  ],
+  "author": "David Arteaga Sánchez",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/plugin-syntax-import-assertions": "^7.17.12",
+    "@babel/preset-env": "^7.18.2",
+    "jest": "^28.1.1",
+    "jsdoc": "^3.6.10"
+  }
+}

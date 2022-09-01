@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Move Ball</title>
+  <h1 style="text-align:center">Move Ball</h1>
+  <style> 
+    .gamepad {
+      text-align: center;
+      background-color: darkgrey;
+    }
+  </style>
+  <script type="module" src="./move-ball.js" defer></script>
+</head>
+
+<body>
+  <li><a href="index.html">Home</a></li>
+
+  <canvas id="myCanvas" style="display: block; margin-top: 100px;margin-left: auto;margin-right: auto;">
+  </canvas>
+
+  <div class="gamepad">
+    <p><input type="button" id="up" name="up" value="UP"></p>
+    <p>
+      <input type="button" id="left" name="left" value="LEFT">
+      <input type="button" id="right" name="right" value="RIGHT">
+    </p>
+    <p><input type="button" id="down" name="down" value="DOWN"></p>
+    <p><input type="number" id="step" name="step" min="1" max="200" value="40"><br></p>
+  </div>
+  
+  
+
+  <br><h2>Move Ball</h2>
+  <p>Press the buttons and move the ball. It cannot pass the borders of the blue field</p>
+</body>
+
+</html>
